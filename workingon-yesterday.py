@@ -2,7 +2,7 @@ import sqlite3
 import datetime
 
 # Connect to the Chrome history database
-conn = sqlite3.connect('C:/Users/bernh/AppData/Local/Google/Chrome/User Data/Default/History')
+conn = sqlite3.connect('C:/Users/[USER]/AppData/Local/Google/Chrome/User Data/Default/History')
 
 # Define the start and end times for the query (yesterday's date)
 today = datetime.date.today()
